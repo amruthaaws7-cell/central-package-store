@@ -1,16 +1,14 @@
-name: demo-package
-ecosystem: python
-description: Demo package for central package store POC
+package: demo-package
+type: python
+owner: DevOps Team
 
-approved_versions:
+versions:
   - version: 1.0.0
     status: approved
-    approved_by: platform-team
-    release_date: 2026-08-13
+    release_date: 2026-08-01
+    notes: Initial approved release
 
   - version: 1.1.0
     status: approved
-    approved_by: platform-team
     release_date: 2026-08-13
-
-latest_approved: 1.1.0
+    notes: Added new functionality and bug fixes
